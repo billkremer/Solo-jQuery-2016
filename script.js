@@ -12,13 +12,13 @@ $(function () { // document ready
   $('.color-button').on('click', function () {
    nextColor = $(this).data('color'); // retrieves the color data
 
-   $newBlock = $('<div class="color-cube ' + nextColor +'"></div>'); // creates a div string with the color-cube and "nextColor" classes.
+   $newBlock = $('<div class="color-cube ' + nextColor + '"></div>'); // creates a div string with the color-cube and "nextColor" classes.
 
    $('.container').append($newBlock); // appends the div
 
    colorTotal[nextColor]++;  // increases the total count of the color
 
-   $('body').find('#'+nextColor).text(colorTotal[nextColor]);
+   $('body').find('#' + nextColor).text(colorTotal[nextColor]);
    // updates the total color count in the top table.
 
   });  // closes the click
