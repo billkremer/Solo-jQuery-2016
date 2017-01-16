@@ -1,3 +1,14 @@
+# Another Block Game!
+
+This is a quick game to create colored blocks.  A block of the requested color is added when the button is pressed.  The running total of all the blocks of the requested colors is kept at the top of the page.  Have fun creating blocks!
+
+##Author: Bill Kremer
+###Date of publication: January 16, 2017
+###Technology used: JavaScript, jQuery, HTML & CSS.
+
+
+
+
 # jQuery Code Challenge
 
 In this challenge you will be creating an application that will create colored `<div>` tag each time the corresponding color is clicked. As each color (button) is clicked, it should increment the corresponding label. HTML and CSS are provided, the focus here is jQuery.
